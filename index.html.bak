@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>bootstrap练习</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <link href="owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="owl-carousel/owl.theme.css" rel="stylesheet">
+</head>
+<body>
+<!--navbar page start-->
+<nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="" class="navbar-brand">bootstrap练习</a>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#tf-home" class="page-scroll">首页</a></li>
+                <li><a href="#tf-about" class="page-scroll">我的简介</a></li>
+                <li><a href="#tf-team" class="page-scroll">我的团队</a></li>
+                <li><a href="#tf-services" class="page-scroll">我的技能</a></li>
+                <li><a href="#tf-works" class="page-scroll">我的项目</a></li>
+                <li><a href="" class="page-scroll">联系我</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--end navbar page-->
+<!--Home page start-->
+<div id="tf-home" class="text-center">
+    <div class="overlay">
+        <div class="content">
+            <h1>欢迎观看我的 <strong class="colors">bootstrap项目</strong></h1>
+
+            <p class="lead">
+               我是一名前端爱好者
+            </p>
+            <a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
+        </div>
+    </div>
+</div>
+<!--end Home page-->
+<!--About page start-->
+<div id="tf-about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="images/02.png" alt="" class="img-responsive"/>
+            </div>
+            <div class="col-md-6">
+                <div class="section-title">
+                    <h2>关于<strong>我的介绍</strong></h2>
+                    <hr/>
+                </div>
+                <div class="clearfix"></div>
+                <p class="intro">我喜欢网络,喜欢接触新的事物.在前端的领域上,希望不断的突破现有的知识,不断去学习,不断的挑战自己</p>
+                <ul class="list-unstyled about-list">
+                    <li><span class="fa fa-dot-circle-o"></span> <strong>使命</strong> - <em>我将会不断的学习,接触新的知识点,永不停息</em></li>
+                    <li><span class="fa fa-dot-circle-o"></span> <strong>技能</strong> - <em>从基础的html、css、JavaScript到vue、bootstrap和Jquery</em></li>
+                    <li><span class="fa fa-dot-circle-o"></span> <strong>服务对象</strong> - <em>我的雇佣方</em></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end About page-->
+<!--Team page start -->
+<div id="tf-team" class="text-center">
+    <div class="overlay">
+        <div class="container">
+            <div class="section-title center">
+                <h2>我的团队</h2>
+                <div class="line">
+                    <hr/>
+                </div>
+            </div>
+            <div id="team">
+                <div class="item">
+                    <div class="thumbnail">
+                        <img src="http://www.mengcoming.com/Picture/11.jpg" alt="" class="img-circle img-item"/>
+                        <div class="caption">
+                            <h3>王猛</h3>
+                            <p>web前端</p>
+                            <p>不要改变过去的既成事实，去改变结果吧</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thumbnail">
+                        <img src="http://www.mengcoming.com/Picture/11.jpg" alt="" class="img-circle img-item"/>
+                        <div class="caption">
+                            <h3>王猛</h3>
+                            <p>web前端</p>
+                            <p>不要改变过去的既成事实，去改变结果吧</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thumbnail">
+                        <img src="http://www.mengcoming.com/Picture/11.jpg" alt="" class="img-circle img-item"/>
+                        <div class="caption">
+                           <h3>王猛</h3>
+                            <p>web前端</p>
+                            <p>不要改变过去的既成事实，去改变结果吧</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thumbnail">
+                        <img src="http://www.mengcoming.com/Picture/11.jpg" alt="" class="img-circle img-item"/>
+                        <div class="caption">
+                            <h3>王猛</h3>
+                            <p>web前端</p>
+                            <p>不要改变过去的既成事实，去改变结果吧</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thumbnail">
+                        <img src="http://www.mengcoming.com/Picture/11.jpg" alt="" class="img-circle img-item"/>
+                        <div class="caption">
+                            <h3>王猛</h3>
+                            <p>web前端</p>
+                            <p>不要改变过去的既成事实，去改变结果吧</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thumbnail">
+                        <img src="http://www.mengcoming.com/Picture/11.jpg" alt="" class="img-circle img-item"/>
+                        <div class="caption">
+                           <h3>王猛</h3>
+                            <p>web前端</p>
+                            <p>不要改变过去的既成事实，去改变结果吧</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thumbnail">
+                        <img src="http://www.mengcoming.com/Picture/11.jpg" alt="" class="img-circle img-item"/>
+                        <div class="caption">
+                           <h3>王猛</h3>
+                            <p>web前端</p>
+                            <p>不要改变过去的既成事实，去改变结果吧</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thumbnail">
+                        <img src="http://www.mengcoming.com/Picture/11.jpg" alt="" class="img-circle img-item"/>
+                        <div class="caption">
+                          <h3>王猛</h3>
+                            <p>web前端</p>
+                            <p>不要改变过去的既成事实，去改变结果吧</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end Team page-->
+
+<!--Services page start-->
+<div id="tf-services" class="text-center">
+    <div class="container">
+        <div class="section-title center">
+            <h2>看看我能做些什么</h2>
+
+            <div class="line">
+                <hr/>
+            </div>
+            <small>
+                <em>独立个人设计网站、企业网站并且能用代码实现出来.独立开发个人博客、 响应式网站、 移动端网站与各类H5、 Css3特效</em>
+            </small>
+        </div>
+        <div class="row marTop">
+            <div class="col-md-3 col-sm-6 services">
+                <i class="fa fa-desktop"></i>
+                <h4><strong>Web 开发</strong></h4>
+
+                <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section
+                    1.10.32.</p>
+            </div>
+            <div class="col-md-3 col-sm-6 services">
+                <i class="fa fa-mobile"></i>
+                <h4><strong>移动端开发</strong></h4>
+
+                <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section
+                    1.10.32.</p>
+            </div>
+            <div class="col-md-3 col-sm-6 services">
+                <i class="fa fa-camera"></i>
+                <h4><strong>美工修图</strong></h4>
+
+                <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section
+                    1.10.32.</p>
+            </div>
+            <div class="col-md-3 col-sm-6 services">
+                <i class="fa fa-envira"></i>
+                <h4><strong>ui设计</strong></h4>
+
+                <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section
+                    1.10.32.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end Services page-->
+<!--Works page start-->
+<div id="tf-works">
+    <div class="container">
+        <div class="section-title text-center center">
+            <h2>看看<strong>我的项目</strong></h2>
+            <div class="line">
+                <hr/>
+            </div>
+            <small>
+                <em>接触Web的时间虽然很短,但是只要一有时间就打开电脑敲起代码.喜欢看很多好看的网站,所以知己也试着去临摹各类优秀的网站.有工作上线的作品,也有一些自己业余生活写的网页</em>
+            </small>
+        </div>
+        <div class="categories clearfix">
+            <h4 class="pull-left">Filter by Type:</h4>
+            <ul id="cat" class="pull-right list-unstyled type">
+                <li><a href="" class="active" data-filter="*">All</a></li>
+                <li><a href="" data-filter=".web">Web Design</a></li>
+                <li><a href="" data-filter=".photography">Photography</a></li>
+                <li><a href="" data-filter=".app">Mobile App</a></li>
+                <li><a href="" data-filter=".branding">Branding</a></li>
+            </ul>
+        </div>
+        <div id="lightBox" class="row">
+            <div class="col-md-3 col-sm-6 branding web">
+                <div class="portfolio-item">
+                    <div class="hover-bg">
+                        <a href="">
+                            <img src="images/01(1).jpg" alt="" class="img-responsive"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 photography web">
+                <div class="portfolio-item">
+                    <div class="hover-bg">
+                        <a href="">
+                            <img src="images/02(2).jpg" alt="" class="img-responsive"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 branding app">
+                <div class="portfolio-item">
+                    <div class="hover-bg">
+                        <a href="">
+                            <img src="images/03(1).jpg" alt="" class="img-responsive"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 photography">
+                <div class="portfolio-item">
+                    <div class="hover-bg">
+                        <a href="">
+                            <img src="images/04(1).jpg" alt="" class="img-responsive"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 branding">
+                <div class="portfolio-item">
+                    <div class="hover-bg">
+                        <a href="">
+                            <img src="images/05.jpg" alt="" class="img-responsive"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 web app">
+                <div class="portfolio-item">
+                    <div class="hover-bg">
+                        <a href="">
+                            <img src="images/06.jpg" alt="" class="img-responsive"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 photography">
+                <div class="portfolio-item">
+                    <div class="hover-bg">
+                        <a href="">
+                            <img src="images/07.jpg" alt="" class="img-responsive"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 app web">
+                <div class="portfolio-item">
+                    <div class="hover-bg">
+                        <a href="">
+                            <img src="images/08.jpg" alt="" class="img-responsive"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end Works page-->
+<!--contact page start-->
+<div id="tf-contact">
+	<div class="container">
+				<div class="section-title text-center">
+            <h2>联系我</h2>
+        </div>
+		<form>
+			<div class="form-group">
+				<label for="exampleInputEmail1">输入你的名字</label>
+				<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="输入你的名字">
+			</div>
+			<div class="form-group">
+				<label for="exampleInputPassword1">Email</label>
+				<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Email">
+			</div>
+			<div class="form-group">
+				<label for="name">文本框</label>
+				<textarea class="form-control" rows="3" placeholder="massage"></textarea>
+			</div>
+			<div class="form-check">
+				<button  type="button" class="btn btn-info">发送</button>
+			</div>
+		</form>
+
+	</div>
+</div>
+<!--end contact page-->
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.js"></script>
+<script>
+    $(window).bind("scroll", function () {
+        var navHeight = $(window).height() - 300;
+        var scrollTop = $(window).scrollTop();
+        if (scrollTop > navHeight) {
+            $(".navbar-default").addClass("on");
+        }
+        else {
+            $(".navbar-default").removeClass("on");
+        }
+        //console.log(scrollTop);
+    });
+    $('body').scrollspy({
+        target: '.navbar-default',
+        offset: 80
+    });
+    $("a.page-scroll").click(function () {
+        $(this).parents().addClass("active").siblings().removeClass("active");
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            if (target.length) {
+                $('html,body').animate({
+                    scrollTop: target.offset().top - 40
+                }, 900);
+                return false;
+            }
+        }
+    });
+    $("#team").owlCarousel({
+        slideSpeed:200,
+        paginationSpeed:400,
+        itemsCustom : [
+            [0, 1],
+            [450, 2],
+            [600, 2],
+            [700, 2],
+            [1000, 4],
+            [1200, 4],
+            [1400, 4],
+            [1600, 4]
+        ]
+    });
+
+    var $container = $("#lightBox");
+    $container.isotope({
+        filter:"*",
+        animationOptions:{
+            duration:750,
+            easing:"linear"
+        }
+    });
+    $("#cat a").click(function(){
+        $("#cat a").removeClass("active");
+        $(this).addClass("active");
+        var selector = $(this).attr("data-filter");
+        $container.isotope({
+            filter:selector,
+            animationOptions:{
+                duration:750,
+                easing:"linear"
+            }
+        });
+        return false;
+    });
+</script>
+</body>
+</html>
+
+
