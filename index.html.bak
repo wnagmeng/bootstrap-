@@ -233,10 +233,10 @@
             <h4 class="pull-left">Filter by Type:</h4>
             <ul id="cat" class="pull-right list-unstyled type">
                 <li><a href="" class="active" data-filter="*">All</a></li>
-                <li><a href="" data-filter=".web">Web Design</a></li>
-                <li><a href="" data-filter=".photography">Photography</a></li>
-                <li><a href="" data-filter=".app">Mobile App</a></li>
-                <li><a href="" data-filter=".branding">Branding</a></li>
+                <li><a href="" data-filter=".web">Web 开发</a></li>
+                <li><a href="" data-filter=".photography">Ui设计</a></li>
+                <li><a href="" data-filter=".app">移动端开发</a></li>
+                <li><a href="" data-filter=".branding">平面设计</a></li>
             </ul>
         </div>
         <div id="lightBox" class="row">
